@@ -79,7 +79,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 586.015874922275543, 879.299991488456726, 70.0, 40.0 ],
+					"patching_rect" : [ 716.015874922275543, 857.599982976913452, 70.0, 40.0 ],
 					"text" : "turn on audio"
 				}
 
@@ -560,12 +560,11 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-29",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 381.920957922275647, 325.774200000000008, 124.0, 40.0 ],
-					"text" : "click to turn the output on and off"
+					"patching_rect" : [ 381.920957922275647, 325.774200000000008, 124.0, 25.0 ],
+					"text" : "Sound aktivieren"
 				}
 
 			}
@@ -909,7 +908,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 741.015874922275543, 231.599982976913452, 114.0, 24.0 ],
 					"style" : "helpfile_label",
-					"text" : "turn on looping"
+					"text" : "loop einschalten",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -949,7 +949,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 725.015874922275543, 199.599982976913452, 147.0, 25.0 ],
-					"text" : "play/stop current file"
+					"text" : "play/stop "
 				}
 
 			}
@@ -971,11 +971,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-27",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 705.015874922275543, 166.599982976913452, 137.0, 25.0 ],
-					"text" : "open an audio file "
+					"patching_rect" : [ 705.015874922275543, 166.599982976913452, 137.0, 40.0 ],
+					"text" : "öffne deine Audiodatei"
 				}
 
 			}
@@ -1073,7 +1074,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 783.015874922275543, 286.599982976913452, 118.0, 24.0 ],
 					"style" : "helpfile_label",
-					"text" : "pause playback"
+					"text" : "pause playback",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
