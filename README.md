@@ -14,7 +14,6 @@ An introduction to fundamental audio objects in Max, including:
 - Audio metering and monitoring tools
 - Volume control with `live.gain~`
 
-![Basic Audio Objects Preview](https://via.placeholder.com/600x400?text=Basic+Audio+Objects)
 
 ### 2. Basic_elements.maxpat
 A comprehensive overview of the essential building blocks in Max:
@@ -27,7 +26,6 @@ A comprehensive overview of the essential building blocks in Max:
 - Basic sequencing with metro, counter, and random objects
 - Visual feedback mechanisms
 
-![Basic Elements Preview](https://via.placeholder.com/600x400?text=Basic+Elements)
 
 ### 3. Basic_JIT_Objects.maxpat
 An introduction to Jitter objects for visual processing:
@@ -37,7 +35,6 @@ An introduction to Jitter objects for visual processing:
 - Webcam input using `jit.grab`
 - Basic image manipulation
 
-![Basic JIT Objects Preview](https://via.placeholder.com/600x400?text=Basic+JIT+Objects)
 
 ### 4. Basic_Movie_Player.maxpat
 A simple video player implementation featuring:
@@ -47,7 +44,6 @@ A simple video player implementation featuring:
 - Loop functionality
 - Video output with `jit.world`
 
-![Basic Movie Player Preview](https://via.placeholder.com/600x400?text=Basic+Movie+Player)
 
 ### 5. Sounddriven_Video_Scroll.maxpat
 An interactive audio-visual project that:
@@ -58,7 +54,6 @@ An interactive audio-visual project that:
 - Includes UI elements for adjusting sensitivity and response
 - Provides file drag-and-drop functionality
 
-![Sound-driven Video Scroll Preview](https://via.placeholder.com/600x400?text=Sound-driven+Video+Scroll)
 
 ## Getting Started
 
@@ -92,9 +87,6 @@ For optimal learning, it's recommended to explore the patches in this order:
 - [Cycling '74 Forums](https://cycling74.com/forums)
 - [Max Tutorials](https://cycling74.com/tutorials)
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgments
 
