@@ -80,6 +80,7 @@ For optimal learning, it's recommended to explore the patches in this order:
 3. Basic_JIT_Objects.maxpat (visual basics)
 4. Basic_Movie_Player.maxpat (video playback)
 5. Sounddriven_Video_Scroll.maxpat (combined audio-visual project)
+6. Checking out the Example Patches
 
 ## Resources
 

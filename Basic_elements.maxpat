@@ -2,42 +2,16 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 1,
-			"revision" : 11,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 62.0, 1198.0, 915.0 ],
-		"bglocked" : 0,
-		"openinpresentation" : 0,
-		"default_fontsize" : 12.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial",
-		"gridonopen" : 1,
+		"rect" : [ 134.0, 108.0, 1198.0, 915.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
-		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"bubble" : 1,
@@ -76,8 +50,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 932.17524066567421, 126.999999999999972, 150.0, 66.0 ],
-					"text" : "Nummern und Messages können die Objekt Werte verändern",
-					"textjustification" : 0
+					"text" : "Nummern und Messages können die Objekt Werte verändern"
 				}
 
 			}
@@ -245,7 +218,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 859.0, 480.0, 24.0, 24.0 ]
+					"patching_rect" : [ 859.0, 480.0, 24.0, 24.0 ],
+					"svg" : ""
 				}
 
 			}
@@ -292,12 +266,11 @@
 				"box" : 				{
 					"bubble" : 1,
 					"id" : "obj-55",
-					"linecount" : 8,
+					"linecount" : 7,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1254.0, 238.531745970249176, 150.0, 118.0 ],
-					"presentation_linecount" : 8,
+					"patching_rect" : [ 1254.0, 238.531745970249176, 154.0, 104.0 ],
 					"text" : "slider können im Inspector mit einer Range versehen werden der Linke hat eine Range von 0 - 100 Iinteger der Rechte eine Range von 0 - 1 float"
 				}
 
@@ -335,7 +308,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 595.0, 193.5, 150.0, 104.0 ],
-					"presentation_linecount" : 7,
 					"text" : "wenn du den Button drückst wird im Counter Objekt hochgezählt und im  Random Objekt eine nummer zwischen 1 und 1000 generiert "
 				}
 
@@ -350,7 +322,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 891.0, 245.968254029750824, 150.0, 79.0 ],
-					"presentation_linecount" : 4,
 					"text" : "Manipuliere das Metronom über slider, integer nummerr oder messages"
 				}
 
@@ -403,7 +374,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 25.0, 13.670795876979838, 62.0, 57.0 ],
-					"presentation_linecount" : 2,
 					"text" : "inlet"
 				}
 
@@ -440,8 +410,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 687.0, 41.970795876979828, 150.0, 78.0 ],
-					"presentation_linecount" : 5,
+					"patching_rect" : [ 687.0, 41.970795876979828, 153.0, 78.0 ],
 					"text" : "Das Objekt kriegt seine Funktion indem man in dieses hinein schreibt. und wir es mit Attributen versehen."
 				}
 
@@ -456,7 +425,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 165.222226440906525, 130.159999999999997, 168.0, 72.0 ],
-					"presentation_linecount" : 5,
 					"text" : "Message Box \nDie Kann Daten speichern und Objekte modifizieren"
 				}
 
@@ -491,7 +459,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 514.190488994121552, 69.970795876979821, 73.0, 22.0 ],
 					"text" : "random 100"
 				}
@@ -542,7 +510,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 784.190488994121552, 161.0, 24.0, 24.0 ]
+					"patching_rect" : [ 784.190488994121552, 161.0, 24.0, 24.0 ],
+					"svg" : ""
 				}
 
 			}
@@ -580,7 +549,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 165.222226440906525, 41.970795876979828, 168.0, 87.0 ],
-					"presentation_linecount" : 6,
 					"text" : "Objekt Box\nFührt spezifische Funktionen aus wenn zusammen gepatcht mit anderen \"Teilen\""
 				}
 
@@ -607,7 +575,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 165.222226440906525, 430.41492560386655, 168.0, 41.0 ],
-					"presentation_linecount" : 2,
 					"text" : "float nummer \n->  Kommastelle"
 				}
 
@@ -622,7 +589,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 165.222226440906525, 380.899049906730625, 168.0, 41.0 ],
-					"presentation_linecount" : 2,
 					"text" : "integer nummer \n-> Ganzzahlig"
 				}
 
@@ -637,7 +603,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 165.222226440906525, 202.021906385421744, 168.0, 116.0 ],
-					"presentation_linecount" : 7,
 					"text" : "Button\nDieser kann Objekte triggern und auch als viesuelle hilfe genutzt werden um zu sehen ob wir ein Signal haben."
 				}
 
@@ -664,7 +629,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 165.222226440906525, 318.090795876979826, 172.0, 57.0 ],
-					"presentation_linecount" : 3,
 					"text" : "Toggle \nWird häufig als On / Off Schalter genutzt"
 				}
 
@@ -716,7 +680,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 121.015874922275543, 323.07142436504364, 42.0, 42.0 ]
+					"patching_rect" : [ 121.015874922275543, 323.07142436504364, 42.0, 42.0 ],
+					"svg" : ""
 				}
 
 			}
@@ -738,7 +703,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 499.0, 219.5, 79.0, 22.0 ],
 					"text" : "random 1000"
 				}
@@ -982,14 +947,7 @@
 
 			}
  ],
-		"parameters" : 		{
-			"parameterbanks" : 			{
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
+		"originid" : "pat-8",
 		"dependency_cache" : [  ],
 		"autosave" : 0
 	}
