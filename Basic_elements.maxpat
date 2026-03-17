@@ -15,13 +15,139 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"bubble" : 1,
+					"bubbleside" : 2,
+					"fontsize" : 30.0,
+					"id" : "obj-72",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 25.0, 743.0, 356.0, 160.0 ],
+					"presentation_linecount" : 11,
+					"text" : "Mit CMD + E Lockst oder Unlockst du den Patch. (oder durch Clicken auf das Schloss Links unten.)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-70",
+					"maxclass" : "dial",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 954.0, 236.0, 40.0, 40.0 ],
+					"size" : 100.0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-68",
+					"maxclass" : "dial",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1057.0, 236.0, 40.0, 40.0 ],
+					"size" : 2.0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-61",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 558.0, 673.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-59",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 497.0, 673.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-58",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 440.0, 673.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-56",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 380.0, 673.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-52",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 619.0, 673.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-48",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 320.0, 673.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 6,
+					"numoutlets" : 6,
+					"outlettype" : [ "bang", "bang", "bang", "bang", "bang", "" ],
+					"patching_rect" : [ 439.0, 613.0, 74.0, 22.0 ],
+					"text" : "sel 1 3 5 7 9"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
 					"bubbleside" : 0,
 					"id" : "obj-39",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1190.0, 320.590795876979882, 58.0, 52.0 ],
+					"patching_rect" : [ 1007.0, 352.0, 58.0, 52.0 ],
 					"text" : "float Nummer"
 				}
 
@@ -35,7 +161,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1118.5, 318.090795876979826, 57.0, 52.0 ],
+					"patching_rect" : [ 910.0, 349.0, 57.0, 52.0 ],
 					"text" : "integer Nummer"
 				}
 
@@ -49,7 +175,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 932.17524066567421, 126.999999999999972, 150.0, 66.0 ],
+					"patching_rect" : [ 589.0, 181.0, 150.0, 66.0 ],
 					"text" : "Nummern und Messages können die Objekt Werte verändern"
 				}
 
@@ -61,8 +187,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1170.0, 758.0, 50.0, 22.0 ],
-					"text" : "files"
+					"patching_rect" : [ 1223.0, 761.0, 50.0, 22.0 ],
+					"text" : "help"
 				}
 
 			}
@@ -84,7 +210,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 859.0, 753.0, 154.0, 49.0 ],
+					"patching_rect" : [ 912.0, 756.0, 154.0, 49.0 ],
 					"text" : "files",
 					"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
 				}
@@ -97,7 +223,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 859.0, 708.0, 41.0, 22.0 ],
+					"patching_rect" : [ 912.0, 711.0, 41.0, 22.0 ],
 					"text" : "set $1"
 				}
 
@@ -109,7 +235,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1028.102893263101578, 657.0, 30.0, 22.0 ],
+					"patching_rect" : [ 1081.0, 660.0, 30.0, 22.0 ],
 					"text" : "files"
 				}
 
@@ -121,7 +247,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 991.67524066567421, 657.0, 31.0, 22.0 ],
+					"patching_rect" : [ 1044.0, 660.0, 31.0, 22.0 ],
 					"text" : "help"
 				}
 
@@ -133,7 +259,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 956.56913149356842, 657.0, 29.5, 22.0 ],
+					"patching_rect" : [ 1009.0, 660.0, 29.5, 22.0 ],
 					"text" : "the"
 				}
 
@@ -145,7 +271,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 910.141478896141052, 657.0, 40.0, 22.0 ],
+					"patching_rect" : [ 963.0, 660.0, 40.0, 22.0 ],
 					"text" : "check"
 				}
 
@@ -157,7 +283,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 859.0, 657.0, 47.0, 22.0 ],
+					"patching_rect" : [ 912.0, 660.0, 47.0, 22.0 ],
 					"text" : "Always"
 				}
 
@@ -169,7 +295,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 6,
 					"outlettype" : [ "bang", "bang", "bang", "bang", "bang", "" ],
-					"patching_rect" : [ 859.0, 609.0, 74.0, 22.0 ],
+					"patching_rect" : [ 912.0, 612.0, 74.0, 22.0 ],
 					"text" : "sel 1 2 3 4 5"
 				}
 
@@ -182,7 +308,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 859.0, 577.0, 50.0, 22.0 ]
+					"patching_rect" : [ 912.0, 580.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -193,7 +319,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "", "", "int" ],
-					"patching_rect" : [ 859.0, 546.0, 69.0, 22.0 ],
+					"patching_rect" : [ 912.0, 549.0, 69.0, 22.0 ],
 					"text" : "counter 1 5"
 				}
 
@@ -205,7 +331,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 859.0, 514.0, 63.0, 22.0 ],
+					"patching_rect" : [ 912.0, 517.0, 63.0, 22.0 ],
 					"text" : "metro 500"
 				}
 
@@ -218,7 +344,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 859.0, 480.0, 24.0, 24.0 ],
+					"patching_rect" : [ 912.0, 483.0, 24.0, 24.0 ],
 					"svg" : ""
 				}
 
@@ -231,7 +357,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1122.0, 286.531745970249176, 50.0, 22.0 ]
+					"patching_rect" : [ 914.0, 318.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -244,7 +370,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1194.0, 286.531745970249176, 50.0, 22.0 ]
+					"patching_rect" : [ 1011.0, 318.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -257,7 +383,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1194.0, 120.150795876979828, 20.0, 140.0 ],
+					"patching_rect" : [ 1011.0, 151.0, 20.0, 140.0 ],
 					"size" : 2.0
 				}
 
@@ -266,12 +392,12 @@
 				"box" : 				{
 					"bubble" : 1,
 					"id" : "obj-55",
-					"linecount" : 7,
+					"linecount" : 11,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1254.0, 238.531745970249176, 154.0, 104.0 ],
-					"text" : "slider können im Inspector mit einer Range versehen werden der Linke hat eine Range von 0 - 100 Iinteger der Rechte eine Range von 0 - 1 float"
+					"patching_rect" : [ 1115.0, 177.0, 157.0, 158.0 ],
+					"text" : "sliders und dials können im Inspector mit einer Range versehen werden der Linke hat eine Range von 0 - 100 Iinteger der Rechte eine Range von 0 - 1 float diese Einstellungen kannst du im inspector (i rechts unter der Lupe einstellen)"
 				}
 
 			}
@@ -283,7 +409,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1122.0, 120.150795876979828, 20.0, 140.0 ],
+					"patching_rect" : [ 914.0, 151.0, 20.0, 140.0 ],
 					"size" : 100.0
 				}
 
@@ -295,7 +421,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 405.0, 264.0, 50.0, 22.0 ]
+					"patching_rect" : [ 345.0, 578.0, 50.0, 22.0 ],
+					"text" : "4"
 				}
 
 			}
@@ -307,7 +434,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 595.0, 193.5, 150.0, 104.0 ],
+					"patching_rect" : [ 542.0, 467.0, 150.0, 104.0 ],
 					"text" : "wenn du den Button drückst wird im Counter Objekt hochgezählt und im  Random Objekt eine nummer zwischen 1 und 1000 generiert "
 				}
 
@@ -321,7 +448,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 891.0, 245.968254029750824, 150.0, 79.0 ],
+					"patching_rect" : [ 548.0, 300.0, 150.0, 79.0 ],
 					"text" : "Manipuliere das Metronom über slider, integer nummerr oder messages"
 				}
 
@@ -333,7 +460,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 821.349220395088196, 161.0, 102.0, 24.0 ],
+					"patching_rect" : [ 478.0, 215.0, 102.0, 24.0 ],
 					"text" : "on / off switch"
 				}
 
@@ -345,7 +472,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "", "", "int" ],
-					"patching_rect" : [ 405.0, 219.515879571437836, 75.0, 22.0 ],
+					"patching_rect" : [ 345.0, 534.0, 75.0, 22.0 ],
 					"text" : "counter 1 10"
 				}
 
@@ -385,7 +512,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1047.0, 200.0, 35.0, 22.0 ],
+					"patching_rect" : [ 704.0, 254.0, 35.0, 22.0 ],
 					"text" : "2000"
 				}
 
@@ -397,7 +524,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 998.0, 200.0, 35.0, 22.0 ],
+					"patching_rect" : [ 655.0, 254.0, 35.0, 22.0 ],
 					"text" : "1000"
 				}
 
@@ -425,7 +552,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 165.222226440906525, 130.159999999999997, 168.0, 72.0 ],
-					"text" : "Message Box \nDie Kann Daten speichern und Objekte modifizieren"
+					"text" : "Message Box \nSie kann Daten speichern und Objekte modifizieren"
 				}
 
 			}
@@ -485,7 +612,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 821.349220395088196, 199.0, 159.0, 23.0 ],
+					"patching_rect" : [ 478.0, 253.0, 159.0, 23.0 ],
 					"size" : 1000.0
 				}
 
@@ -498,7 +625,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 821.349220395088196, 245.968254029750824, 50.0, 22.0 ]
+					"patching_rect" : [ 478.0, 300.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -510,7 +637,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 784.190488994121552, 161.0, 24.0, 24.0 ],
+					"patching_rect" : [ 441.0, 215.0, 24.0, 24.0 ],
 					"svg" : ""
 				}
 
@@ -523,7 +650,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 784.190488994121552, 331.380953967571259, 24.0, 24.0 ]
+					"patching_rect" : [ 441.0, 385.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -534,7 +661,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 784.190488994121552, 284.587302386760712, 56.0, 22.0 ],
+					"patching_rect" : [ 441.0, 339.0, 56.0, 22.0 ],
 					"text" : "metro 33"
 				}
 
@@ -549,7 +676,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 165.222226440906525, 41.970795876979828, 168.0, 87.0 ],
-					"text" : "Objekt Box\nFührt spezifische Funktionen aus wenn zusammen gepatcht mit anderen \"Teilen\""
+					"text" : "Objekt Box\nFührt spezifische Funktionen aus wenn  zusammen gepatcht mit anderen \"Teilen\""
 				}
 
 			}
@@ -584,12 +711,12 @@
 					"bubble" : 1,
 					"fontsize" : 13.694945880075419,
 					"id" : "obj-26",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 165.222226440906525, 380.899049906730625, 168.0, 41.0 ],
-					"text" : "integer nummer \n-> Ganzzahlig"
+					"patching_rect" : [ 165.0, 374.5, 168.0, 56.0 ],
+					"text" : "integer nummer \n-> Ganzzahlig (Kein Punkt hinter der Null)"
 				}
 
 			}
@@ -603,7 +730,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 165.222226440906525, 202.021906385421744, 168.0, 116.0 ],
-					"text" : "Button\nDieser kann Objekte triggern und auch als viesuelle hilfe genutzt werden um zu sehen ob wir ein Signal haben."
+					"text" : "Button\nDieser kann Objekte triggern und auch als visuelle hilfe genutzt werden um zu sehen ob wir ein Signal haben."
 				}
 
 			}
@@ -628,7 +755,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 165.222226440906525, 318.090795876979826, 172.0, 57.0 ],
+					"patching_rect" : [ 165.0, 318.090795876979826, 168.5, 57.0 ],
 					"text" : "Toggle \nWird häufig als On / Off Schalter genutzt"
 				}
 
@@ -668,7 +795,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 499.0, 169.0, 24.0, 24.0 ]
+					"patching_rect" : [ 439.0, 483.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -692,8 +819,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 499.0, 264.0, 50.0, 22.0 ],
-					"text" : "811"
+					"patching_rect" : [ 439.0, 578.0, 50.0, 22.0 ],
+					"text" : "3"
 				}
 
 			}
@@ -704,8 +831,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 499.0, 219.5, 79.0, 22.0 ],
-					"text" : "random 1000"
+					"patching_rect" : [ 439.0, 534.0, 66.0, 22.0 ],
+					"text" : "random 10"
 				}
 
 			}
@@ -713,6 +840,15 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 1 ],
+					"order" : 0,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"order" : 1,
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -728,6 +864,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-42", 0 ],
 					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
@@ -782,8 +925,64 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-48", 0 ],
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-52", 0 ],
+					"source" : [ "obj-6", 5 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-56", 0 ],
+					"source" : [ "obj-6", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-58", 0 ],
+					"source" : [ "obj-6", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-59", 0 ],
+					"source" : [ "obj-6", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-61", 0 ],
+					"source" : [ "obj-6", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-71", 0 ],
 					"source" : [ "obj-66", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-62", 0 ],
+					"source" : [ "obj-68", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-64", 0 ],
+					"source" : [ "obj-70", 0 ]
 				}
 
 			}
@@ -947,7 +1146,7 @@
 
 			}
  ],
-		"originid" : "pat-8",
+		"originid" : "pat-32",
 		"dependency_cache" : [  ],
 		"autosave" : 0
 	}
